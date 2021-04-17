@@ -1,0 +1,330 @@
+Dependencies for Project 'ESP8266', Target 'nrf51822_xxac': (DO NOT MODIFY !)
+F (.\main.c)(0x5B30A3C6)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (..\components\libraries\uart\app_uart.h)(0x56E1A84E)
+I (..\components\libraries\util\app_util_platform.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+I (..\components\libraries\util\nrf_assert.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error.h)(0x56E1A84E)
+I (..\components\libraries\util\sdk_errors.h)(0x56E1A84E)
+I (..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x56E1A84E)
+I (..\components\libraries\util\nordic_common.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_log.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (..\components\libraries\util\app_util.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error_weak.h)(0x56E1A84E)
+I (..\components\drivers_nrf\delay\nrf_delay.h)(0x56E1A84E)
+I (..\components\drivers_nrf\hal\nrf_gpio.h)(0x56E1A84E)
+I (..\bsp\boards.h)(0x56E1A84F)
+I (..\bsp\pca10028.h)(0x5B30A2E5)
+I (..\components\drivers_nrf\uart\nrf_drv_uart.h)(0x56E1A84E)
+I (..\components\drivers_nrf\hal\nrf_uart.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (..\components\drivers_nrf\hal\nrf_uarte.h)(0x56E1A84E)
+I (..\components\drivers_nrf\config\nrf_drv_config.h)(0x5707300D)
+I (..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (..\components\esp8266\nrf51_esp8266_drv.h)(0x5B309FC2)
+F (..\components\drivers_nrf\delay\nrf_delay.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\nrf_delay.o --omf_browse .\objects\nrf_delay.crf --depend .\objects\nrf_delay.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+I (..\components\drivers_nrf\delay\nrf_delay.h)(0x56E1A84E)
+F (..\components\drivers_nrf\uart\nrf_drv_uart.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\nrf_drv_uart.o --omf_browse .\objects\nrf_drv_uart.crf --depend .\objects\nrf_drv_uart.d)
+I (..\components\drivers_nrf\uart\nrf_drv_uart.h)(0x56E1A84E)
+I (..\components\drivers_nrf\hal\nrf_uart.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (..\components\drivers_nrf\hal\nrf_uarte.h)(0x56E1A84E)
+I (..\components\libraries\util\sdk_errors.h)(0x56E1A84E)
+I (..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x56E1A84E)
+I (..\components\drivers_nrf\config\nrf_drv_config.h)(0x5707300D)
+I (..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_assert.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\components\libraries\util\nordic_common.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_log.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (..\components\libraries\util\app_util.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error_weak.h)(0x56E1A84E)
+I (..\components\drivers_nrf\common\nrf_drv_common.h)(0x56E1A84E)
+I (..\components\drivers_nrf\hal\nrf_gpio.h)(0x56E1A84E)
+I (..\components\libraries\util\app_util_platform.h)(0x56E1A84E)
+F (..\components\drivers_nrf\common\nrf_drv_common.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\nrf_drv_common.o --omf_browse .\objects\nrf_drv_common.crf --depend .\objects\nrf_drv_common.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (..\components\drivers_nrf\common\nrf_drv_common.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
+I (..\components\libraries\util\sdk_errors.h)(0x56E1A84E)
+I (..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x56E1A84E)
+I (..\components\drivers_nrf\config\nrf_drv_config.h)(0x5707300D)
+I (..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_assert.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\components\libraries\util\nordic_common.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_log.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (..\components\libraries\util\app_util.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error_weak.h)(0x56E1A84E)
+I (..\components\libraries\util\app_util_platform.h)(0x56E1A84E)
+F (..\components\libraries\uart\app_uart_fifo.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\app_uart_fifo.o --omf_browse .\objects\app_uart_fifo.crf --depend .\objects\app_uart_fifo.d)
+I (..\components\libraries\uart\app_uart.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (..\components\libraries\util\app_util_platform.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+I (..\components\libraries\util\nrf_assert.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\components\libraries\util\sdk_errors.h)(0x56E1A84E)
+I (..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x56E1A84E)
+I (..\components\libraries\util\nordic_common.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_log.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (..\components\libraries\util\app_util.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error_weak.h)(0x56E1A84E)
+I (..\components\libraries\fifo\app_fifo.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (..\components\drivers_nrf\uart\nrf_drv_uart.h)(0x56E1A84E)
+I (..\components\drivers_nrf\hal\nrf_uart.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (..\components\drivers_nrf\hal\nrf_uarte.h)(0x56E1A84E)
+I (..\components\drivers_nrf\config\nrf_drv_config.h)(0x5707300D)
+I (..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (..\components\libraries\util\sdk_common.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (..\components\libraries\util\sdk_os.h)(0x56E1A84E)
+F (..\components\libraries\util\app_util_platform.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\app_util_platform.o --omf_browse .\objects\app_util_platform.crf --depend .\objects\app_util_platform.d)
+I (..\components\libraries\util\app_util_platform.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+I (..\components\libraries\util\nrf_assert.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (..\components\libraries\util\sdk_errors.h)(0x56E1A84E)
+I (..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x56E1A84E)
+I (..\components\libraries\util\nordic_common.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_log.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (..\components\libraries\util\app_util.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error_weak.h)(0x56E1A84E)
+F (..\components\libraries\util\app_error.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\app_error.o --omf_browse .\objects\app_error.crf --depend .\objects\app_error.d)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\components\libraries\util\app_error.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (..\components\libraries\util\sdk_errors.h)(0x56E1A84E)
+I (..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x56E1A84E)
+I (..\components\libraries\util\nordic_common.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_log.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (..\components\libraries\util\app_util.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error_weak.h)(0x56E1A84E)
+F (..\components\libraries\util\nrf_assert.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\nrf_assert.o --omf_browse .\objects\nrf_assert.crf --depend .\objects\nrf_assert.d)
+I (..\components\libraries\util\nrf_assert.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
+I (..\components\libraries\util\app_error.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (..\components\libraries\util\sdk_errors.h)(0x56E1A84E)
+I (..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x56E1A84E)
+I (..\components\libraries\util\nordic_common.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_log.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (..\components\libraries\util\app_util.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error_weak.h)(0x56E1A84E)
+F (..\components\libraries\fifo\app_fifo.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\app_fifo.o --omf_browse .\objects\app_fifo.crf --depend .\objects\app_fifo.d)
+I (..\components\libraries\fifo\app_fifo.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (..\components\libraries\util\sdk_common.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (..\components\libraries\util\nordic_common.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
+I (..\components\libraries\util\sdk_os.h)(0x56E1A84E)
+I (..\components\libraries\util\sdk_errors.h)(0x56E1A84E)
+I (..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x56E1A84E)
+I (..\components\libraries\util\app_util.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+F (..\components\libraries\util\app_error_weak.c)(0x57C54B3F)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\app_error_weak.o --omf_browse .\objects\app_error_weak.crf --depend .\objects\app_error_weak.d)
+I (..\components\libraries\util\app_error.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
+I (..\components\libraries\util\sdk_errors.h)(0x56E1A84E)
+I (..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x56E1A84E)
+I (..\components\libraries\util\nordic_common.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_log.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (..\components\libraries\util\app_util.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error_weak.h)(0x56E1A84E)
+F (..\components\libraries\uart\retarget.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\components\libraries\uart\app_uart.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (..\components\libraries\util\app_util_platform.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+I (..\components\libraries\util\nrf_assert.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error.h)(0x56E1A84E)
+I (..\components\libraries\util\sdk_errors.h)(0x56E1A84E)
+I (..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x56E1A84E)
+I (..\components\libraries\util\nordic_common.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_log.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (..\components\libraries\util\app_util.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error_weak.h)(0x56E1A84E)
+F (..\components\esp8266\nrf51_esp8266_drv.c)(0x5880E444)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\nrf51_esp8266_drv.o --omf_browse .\objects\nrf51_esp8266_drv.crf --depend .\objects\nrf51_esp8266_drv.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (..\bsp\pca10028.h)(0x5B30A2E5)
+I (..\components\esp8266\nrf51_esp8266_drv.h)(0x5B309FC2)
+I (..\components\libraries\util\app_error.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
+I (..\components\libraries\util\sdk_errors.h)(0x56E1A84E)
+I (..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x56E1A84E)
+I (..\components\libraries\util\nordic_common.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_log.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB2B7E)
+I (..\components\libraries\util\app_util.h)(0x56E1A84E)
+I (..\components\libraries\util\app_error_weak.h)(0x56E1A84E)
+I (..\components\drivers_nrf\delay\nrf_delay.h)(0x56E1A84E)
+I (..\components\libraries\uart\app_uart.h)(0x56E1A84E)
+I (..\components\libraries\util\app_util_platform.h)(0x56E1A84E)
+I (..\components\libraries\util\nrf_assert.h)(0x56E1A84E)
+I (..\components\drivers_nrf\hal\nrf_gpio.h)(0x56E1A84E)
+F (RTE\Device\nRF52832_xxAA\arm_startup_nrf52.s)(0x5AA0AEB8)(--cpu Cortex-M4.fp -g --apcs=interwork -I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "NRF52 SETA 1"--list .\listings\arm_startup_nrf52.lst --xref -o .\objects\arm_startup_nrf52.o --depend .\objects\arm_startup_nrf52.d)
+F (RTE\Device\nRF52832_xxAA\system_nrf52.c)(0x5AA0AEAA)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\components\drivers_nrf\delay -I ..\components\drivers_nrf\hal -I ..\components\drivers_nrf\common -I ..\components\drivers_nrf\uart -I ..\components\esp8266 -I ..\bsp -I ..\.. -I ..\components\libraries\uart -I ..\components\libraries\util -I ..\components\drivers_nrf\config -I ..\components\drivers_nrf\nrf_soc_nosd -I ..\components\toolchain -I ..\components\libraries\fifo -I ..\config-I "D:\BaiduYunDownload\实验8 - ESP8266 Wifi试验\nrf51_esp8266\project\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DNRF52-o .\objects\system_nrf52.o --omf_browse .\objects\system_nrf52.crf --depend .\objects\system_nrf52.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52.h)(0x5AA0AEB0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\system_nrf52.h)(0x5AA0AEA8)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_bitfields.h)(0x5AA0AEB2)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf51_to_nrf52.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\nrf52_name_change.h)(0x5AA0AEAC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include\compiler_abstraction.h)(0x5AA0AEAC)
