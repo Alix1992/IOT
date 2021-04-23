@@ -26,6 +26,7 @@ P0.28：ESP8266复位
 TaskHandle_t start_toggle_task_handle;
 TaskHandle_t StartTask_Handler;
 TaskHandle_t WIFI_Task_Handler;
+TaskHandle_t my_task_1_Handler;
 SemaphoreHandle_t BinarySemaphore;
 EventGroupHandle_t Event_Handle = NULL;     //事件标志组（位0：WIFI连接状态 位1：PING心跳包2S快速发送模式）
 const int WIFI_CONECT = (0x01 << 0);        //设置事件掩码的位 0；服务器连接模式，值1表示已经连接，0表示未连接
@@ -35,11 +36,36 @@ static void start_toggle_task_function(void *pvParameter)
 {      
 	
 
-	
+	while(1)
+{
 	  ESP8266_SetUp();
 		xEventGroupSetBits(Event_Handle, WIFI_CONECT);  //服务器已连接，抛出事件标志 
 		vTaskSuspend(NULL);	    						//服务器已连接，挂起自己，进入挂起态（任务由挂起转为就绪态时在这继续执行下去）
-		xEventGroupClearBits(Event_Handle, WIFI_CONECT);//服务器或者wifi已断开，清除事件标志，继续执行本任务，重新连接 
+		xEventGroupClearBits(Event_Handle, WIFI_CONECT);//服务器或者wifi已断开，清除事件标志，继续执行本任务，重新连接
+	}		
+}
+	char data_of_sensor[500] = {0};
+void my_task_1(void *pvParameters)
+{
+
+//	int temperature = 0;
+	while(1)
+	{
+		//服务器连接事件发生执行此任务，否则挂起
+		xEventGroupWaitBits((EventGroupHandle_t	)Event_Handle,		
+							(EventBits_t		)WIFI_CONECT,
+							(BaseType_t			)pdFALSE,				
+							(BaseType_t			)pdTRUE,
+							(TickType_t			)portMAX_DELAY);
+//		  temperature=temperature+1;
+	//		sprintf(data_of_sensor, "POST /devices/704931691/datapoints?type=3 HTTP/1.1\r\napi-key:QW=lOU0zHy9M1jo8NM=XCnjgREY=\r\nHost:api.heclouds.com\r\nContent-Length:20\r\n\r\n{\"temp\":\"%d\"}\r\n", temperature);  	
+	//		while(!ESP8266_ExeCMD(data_of_sensor,NULL,NULL,1000)){} 		
+	//		nrf_delay_ms(1000);				
+	//			vTaskDelay(1);
+			while(!ESP8266_ExeCMD("POST /devices/704931691/datapoints?type=3 HTTP/1.1\r\napi-key:QW=lOU0zHy9M1jo8NM=XCnjgREY=\r\nHost:api.heclouds.com\r\nContent-Length:13\r\n\r\n{\"temp\":1122}\r\n",NULL,NULL,1000)){} 
+//			nrf_delay_ms(10000);
+//			while(!ESP8266_ExeCMD("POST /devices/704931691/datapoints?type=3 HTTP/1.1\r\napi-key:QW=lOU0zHy9M1jo8NM=XCnjgREY=\r\nHost:api.heclouds.com\r\nContent-Length:13\r\n\r\n{\"temp\":3344}\r\n",NULL,NULL,1000)){} 
+	}
 }
 
 
@@ -58,7 +84,7 @@ void my_start_task(void *pvParameters)
 	//创建WIFI任务
     xTaskCreate(start_toggle_task_function, 				"wifi_task", 				128, NULL, 7, &WIFI_Task_Handler); 			
 	//创建MQTT命令缓冲处理任务
-//    xTaskCreate(my_mqtt_buffer_cmd_task,"my_mqtt_buffer_cmd_task",  128, NULL, 6, &MQTT_Cmd_Task_Handler); 			
+      xTaskCreate(my_task_1,"my_task_1",  128, NULL, 6, &my_task_1_Handler); 			
 //	//创建MQTT数据接收发送缓冲处理任务
 //    xTaskCreate(mqtt_buffer_rx_tx_task, "mqtt_buffer_rx_tx_task", 	256, NULL, 5, &MQTT_RxTx_Task_Handler); 
 //	//创建led控制任务
@@ -97,7 +123,7 @@ int main(void)
     uart_config();
 	
 		APP_ERROR_CHECK(err_code);
-	  xTaskCreate(start_toggle_task_function, "start", configMINIMAL_STACK_SIZE + 24, NULL, 1, &start_toggle_task_handle);
+	  xTaskCreate(my_start_task, "start", configMINIMAL_STACK_SIZE + 24, NULL, 1, &start_toggle_task_handle);
     vTaskStartScheduler();
 }
 /********************************************END FILE*******************************************/

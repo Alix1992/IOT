@@ -1,6 +1,7 @@
 #ifndef NRF51_ESP8266_DRV_H
 #define NRF51_ESP8266_DRV_H
 #include <stdint.h>
+#include <nrfx_clock.h>
 
 #define  ESP8266_RST_EXT   1    //通过复位引脚复位ESP8266
 #define  ESP8266_RST_INT   2    //发送指令复位ESP8266
@@ -22,7 +23,7 @@ extern esp8266_t esp8266;
 void ESP8266_SetUp(void);
 void uart_config(void);
 
-
+bool ESP8266_ExeCMD(char *pcmd,char *resp1,char *resp2,uint32_t timeout);
 
 #endif
 

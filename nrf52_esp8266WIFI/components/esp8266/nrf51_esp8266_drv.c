@@ -181,8 +181,8 @@ void ESP8266_SetUp(void)
 		nrf_delay_ms(1000);
 		while(!ESP8266_ExeCMD("POST /devices/704931691/datapoints?type=3 HTTP/1.1\r\napi-key:QW=lOU0zHy9M1jo8NM=XCnjgREY=\r\nHost:api.heclouds.com\r\nContent-Length:13\r\n\r\n{\"temp\":1234}\r\n",NULL,NULL,1000)){} 
 		nrf_delay_ms(1000);
-		while(!ESP8266_ExeCMD("+++","OK",NULL,1000)){} 
-		nrf_delay_ms(1000);
+//		while(!ESP8266_ExeCMD("+++","OK",NULL,1000)){} 
+//		nrf_delay_ms(1000);
 //		while(!ESP8266_ExeCMD("POST /devices/704931691/datapoints?type=3 HTTP/1.1\r\n",NULL,NULL,1000)){} 
 //			   nrf_delay_ms(1000);
 //		while(!ESP8266_ExeCMD("api-key:QW=lOU0zHy9M1jo8NM=XCnjgREY=\r\n",NULL,NULL,1000)){} 
